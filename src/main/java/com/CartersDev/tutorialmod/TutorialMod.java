@@ -1,5 +1,6 @@
 package com.CartersDev.tutorialmod;
 
+import com.CartersDev.tutorialmod.block.ModBlocks;
 import com.CartersDev.tutorialmod.item.ModCreativeModTabs;
 import com.CartersDev.tutorialmod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -31,6 +32,7 @@ public class TutorialMod {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);

@@ -1,6 +1,7 @@
 package com.CartersDev.tutorialmod.item;
 
 import com.CartersDev.tutorialmod.TutorialMod;
+import com.CartersDev.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,8 @@ public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE
                 .displayItems((itemDisplayParameters, output) -> {
                     output.accept(ModItems.SAPPHIRE.get());
                     output.accept(ModItems.RAW_SAPPHIRE.get());
+                    output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                    output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                 })
                 .build());
 
