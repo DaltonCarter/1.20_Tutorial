@@ -23,6 +23,10 @@ public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE
                     output.accept(ModItems.RAW_SAPPHIRE.get());
                     output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                    output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                    output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                    output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
+                    output.accept(ModBlocks.END_SAPPHIRE_ORE.get());
                 })
                 .build());
 
