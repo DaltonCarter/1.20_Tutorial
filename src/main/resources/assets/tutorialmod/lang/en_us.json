@@ -13,6 +13,12 @@
   "block.tutorialmod.end_sapphire_ore": "End Sapphire Ore",
   "block.tutorialmod.sound_block": "Sound Block",
 
+
+
+
+
+  "tootip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
+
   "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
 
 }
