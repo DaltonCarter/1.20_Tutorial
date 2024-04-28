@@ -24,6 +24,7 @@ public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE
                     output.accept(ModItems.METAL_DETECTOR.get());
                     output.accept(ModItems.STRAWBERRY.get());
                     output.accept(ModItems.PINE_CONE.get());
+                    output.accept(ModItems.SAPPHIRE_STAFF.get());
 
                     output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
