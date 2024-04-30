@@ -25,6 +25,15 @@ public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE
                     output.accept(ModItems.STRAWBERRY.get());
                     output.accept(ModItems.PINE_CONE.get());
                     output.accept(ModItems.SAPPHIRE_STAFF.get());
+                    output.accept(ModItems.SAPPHIRE_SWORD.get());
+                    output.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                    output.accept(ModItems.SAPPHIRE_AXE.get());
+                    output.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                    output.accept(ModItems.SAPPHIRE_HOE.get());
+                    output.accept(ModItems.SAPPHIRE_HELMET.get());
+                    output.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                    output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                    output.accept(ModItems.SAPPHIRE_BOOTS.get());
 
                     output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
